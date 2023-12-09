@@ -10,8 +10,8 @@ const NavBar = ({ setPage }) => {
     return (
         <div className={`NavBar ${darkTheme ? "dark" : ""}`}>
             <div className="logo">
-                {/* <img src="../../assets/images/logo.png" alt="logo" /> */}
-                <h2>Vote-App</h2>
+                <img src="../../assets/images/logo.png" alt="logo" />
+                {/* <h2>Vote-App</h2> */}
             </div>
 
             <div className="dropdown">
