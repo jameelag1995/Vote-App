@@ -2,15 +2,15 @@ import React, { useContext } from "react";
 import "./NavBar.css";
 import { LoginContext } from "../../Context/LoginContext";
 import { ThemeContext } from "../../Context/ThemeContext";
-// import logoImg from "../../assets/images/logo.png";
-
+import logoImg from "../../assets/images/Logo.png";
+// const logoImg = require("../../assets/images/logo.png")
 const NavBar = ({ setPage }) => {
     const { loggedUser, isAdmin, handleUserLogout } = useContext(LoginContext);
     const { darkTheme } = useContext(ThemeContext);
     return (
         <div className={`NavBar ${darkTheme ? "dark" : ""}`}>
             <div className="logo">
-                <img src="../../assets/images/logo.png" alt="logo" />
+                <img src={logoImg} alt="logo" />
                 {/* <h2>Vote-App</h2> */}
             </div>
 
