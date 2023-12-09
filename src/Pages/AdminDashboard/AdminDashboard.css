@@ -1,0 +1,47 @@
+.AdminDashboard{
+    justify-content: start;
+    padding-top: 30px;
+    min-height: calc(100vh - 100px);
+    gap: 40px;
+}
+.users-votes-container{
+    width: 70%;
+    height: 40%;
+    /* background-color: lightslategray; */
+    border-radius: 6px;
+    padding: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.users-votes-container ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.users-votes-container ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(91, 92, 92);
+    height: 50px;
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+}
+.voted{
+    color: rgb(17, 218, 17);
+}
+.notvoted{
+    color: rgb(138, 24, 24);
+}
+.votes-chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+

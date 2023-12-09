@@ -1,0 +1,59 @@
+.page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: none !important;
+    font-size: 1.5rem;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.App {
+    /* background-color: lightsalmon; */
+}
+#theme-switch {
+    position: fixed;
+    z-index: 100;
+    top: 10px;
+    left: 30%;
+    width: 100px;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    border-radius: 6px;
+    border: 1px solid #333;
+    min-width: 60px;
+    height: 40px;
+    margin-bottom: 4px;
+    max-width: 200px;
+    cursor: pointer;
+    padding: 4px;
+    background-color: rgba(201, 207, 207, 0.9);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.dark {
+    color: #fff !important;
+    background-color: rgb(51, 51, 51) !important;
+    border: 1px solid #fff;
+}
+div.dark{
+  border: none;
+}
+
+button.dark {
+    color: #fff !important;
+    background-color: rgba(51, 51, 51, 0.9) !important;
+    border: 1px solid #fff;
+}
+button.dark:hover {
+    background-color: #1d1d1d;
+}

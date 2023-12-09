@@ -1,0 +1,60 @@
+.CandidateCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 1px solid black;
+    background-color: lightblue;
+    border-radius: 6px;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    gap: 16px;
+    transition: all 0.5s ease-in-out;
+}
+.CandidateCard.dark{
+    border: 1px solid #fff;
+}
+.CandidateCard:hover{
+    width: 400px;
+    box-shadow: 0 0 10px 0;
+}
+#candidate-votes{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px;
+    background-color: orange;
+    color: black;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    border-top-right-radius: 6px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.CandidateCard img{
+    width: 100%;
+    height: 50%;
+    border-radius: 6px 6px 0 0;
+}
+.voting-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.voting-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.vote-btn{
+background-color: #04aa6d;
+}
+.vote-btn-no{
+ background-color: rgb(189, 58, 58);
+}
