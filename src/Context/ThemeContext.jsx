@@ -13,8 +13,16 @@ export default function ThemeContextProvider({ children }) {
     };
     return (
         <ThemeContext.Provider value={themeContextValues}>
-            <button id="theme-switch" className={darkTheme ? 'dark' : ''} onClick={handleThemeSwitch}>
-                {darkTheme ? <MdOutlineLightMode className="icon" /> : <MdOutlineDarkMode className="icon"/>}
+            <button
+                id="theme-switch"
+                className={darkTheme ? "dark" : ""}
+                onClick={handleThemeSwitch}
+            >
+                {darkTheme ? (
+                    <MdOutlineLightMode className="icon" />
+                ) : (
+                    <MdOutlineDarkMode className="icon" />
+                )}
             </button>
             {children}
         </ThemeContext.Provider>

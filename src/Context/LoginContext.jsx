@@ -78,7 +78,6 @@ export default function LoginContextProvider({ setLogin, children }) {
         setLoggedUser({});
         setIsAdmin(false);
         setLogin(false);
-        
     }
 
     const loginContextValues = {

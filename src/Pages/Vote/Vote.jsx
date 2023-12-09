@@ -26,8 +26,10 @@ export default function Vote() {
 
     return (
         <div className={`Vote page ${darkTheme ? "dark" : ""}`}>
-            <div className={`title-container ${darkTheme ? 'dark' : ''}`}>
-                <h1 className={darkTheme ? 'dark' : ''}>Who Deserves Your Vote?</h1>
+            <div className={`title-container ${darkTheme ? "dark" : ""}`}>
+                <h1 className={darkTheme ? "dark" : ""}>
+                    Who Deserves Your Vote?
+                </h1>
             </div>
             <div className="candidates-container">
                 {candidates.map((candidate, index) => {

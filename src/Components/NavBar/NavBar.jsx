@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import "./NavBar.css";
 import { LoginContext } from "../../Context/LoginContext";
 import { ThemeContext } from "../../Context/ThemeContext";
-import logoImg from '../../assets/images/logo.png'
+import logoImg from "../../assets/images/logo.png";
+
 const NavBar = ({ setPage }) => {
     const { loggedUser, isAdmin, handleUserLogout } = useContext(LoginContext);
     const { darkTheme } = useContext(ThemeContext);

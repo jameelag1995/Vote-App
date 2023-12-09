@@ -10,6 +10,7 @@ export default function AdminDashboard() {
     const { darkTheme } = useContext(ThemeContext);
     const [candidates, setCandidates] = useState(CANDIDATES);
     const [chartData, setChartData] = useState({});
+
     useEffect(() => {
         const resetedCandidates = candidates.map((cand) => {
             return { ...cand, votes: 0 };

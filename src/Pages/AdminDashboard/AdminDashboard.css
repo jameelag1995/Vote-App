@@ -1,10 +1,10 @@
-.AdminDashboard{
+.AdminDashboard {
     justify-content: start;
     padding-top: 30px;
     min-height: calc(100vh - 100px);
     gap: 40px;
 }
-.users-votes-container{
+.users-votes-container {
     width: 70%;
     height: 40%;
     /* background-color: lightslategray; */
@@ -12,7 +12,7 @@
     padding: 8px;
     transition: all 0.5s ease-in-out;
 }
-.users-votes-container ul{
+.users-votes-container ul {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     align-items: center;
     list-style: none;
 }
-.users-votes-container ul li{
+.users-votes-container ul li {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -31,17 +31,16 @@
     margin-bottom: 4px;
     border-radius: 6px;
 }
-.voted{
+.voted {
     color: rgb(17, 218, 17);
 }
-.notvoted{
+.notvoted {
     color: rgb(138, 24, 24);
 }
-.votes-chart{
+.votes-chart {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-

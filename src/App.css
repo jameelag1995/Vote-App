@@ -11,9 +11,7 @@
     background-color: #fff;
     transition: all 0.5s ease-in-out;
 }
-.App {
-    /* background-color: lightsalmon; */
-}
+
 #theme-switch {
     position: fixed;
     z-index: 100;
@@ -45,8 +43,8 @@ button {
     background-color: rgb(51, 51, 51) !important;
     border: 1px solid #fff;
 }
-div.dark{
-  border: none;
+div.dark {
+    border: none;
 }
 
 button.dark {
