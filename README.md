@@ -4,13 +4,9 @@
 
 ## Accounts to use:
 
-### Admin User
-### Email: test2@hotmail.com
-### Password: Qrxu9yA4VaZhkBI
+### Admin User - Email: test2@hotmail.com , Password: Qrxu9yA4VaZhkBI
 
-### Regular User
-### Email: test3@hotmail.com
-### Password: Qrxu9yA4VaZhkBI
+### Regular User- Email: test3@hotmail.com , Password: Qrxu9yA4VaZhkBI
 
 ## Introduction
 
