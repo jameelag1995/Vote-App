@@ -48,3 +48,22 @@ This React web application allows users to participate in a voting process. The 
 - React Hooks: `useContext`, `createContext`, `useState`, `useEffect`, `useRef`
 - Chart.js for displaying voting statistics charts
 - Context API for managing dark and light modes
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jameelag1995/Vote-App.git
+
+2. cd voting-app
+
+3. npm install
+
+4. npm run dev
+
+## Preview Images
+
+![Login Page]('./loginPage.png')
+![Voting Page]('./votePageLight.png')
+![Voting Page]('./votePageDark.png')
+![Statistics Page]('./statisticsPage.png')

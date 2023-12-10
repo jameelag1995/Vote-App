@@ -9,7 +9,8 @@
     align-items: center;
     padding: 0 10px;
     z-index: 1;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: #fff;
 }
 .logo {
     width: 200px;
@@ -45,6 +46,7 @@
 }
 
 .dropdown-content {
+    transform-origin: top;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +55,7 @@
     background-color: none;
     width: 100%;
     z-index: 2;
-    animation: drop 0.5s ease-in-out;
+    animation: drop 0.2s ease-in-out;
 }
 @keyframes drop {
     0% {

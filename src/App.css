@@ -9,7 +9,7 @@
     border: none !important;
     font-size: 1.5rem;
     background-color: #fff;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 #theme-switch {
@@ -33,9 +33,13 @@ button {
     max-width: 200px;
     cursor: pointer;
     padding: 4px;
-    background-color: rgba(201, 207, 207, 0.9);
+    /* background-color: rgba(201, 207, 207, 0.9); */
+    background-color: #fff;
     font-weight: 600;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    background-color: rgba(201, 207, 207, 0.9);
 }
 
 .dark {
