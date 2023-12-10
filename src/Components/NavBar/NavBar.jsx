@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./NavBar.css";
 import { LoginContext } from "../../Context/LoginContext";
 import { ThemeContext } from "../../Context/ThemeContext";
-import logoImg from "../../../public/Logo.png";
+import logoImg from "/Logo.png";
 // const logoImg = require("../../assets/images/logo.png")
 const NavBar = ({ setPage }) => {
     const { loggedUser, isAdmin, handleUserLogout } = useContext(LoginContext);
