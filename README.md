@@ -63,7 +63,7 @@ This React web application allows users to participate in a voting process. The 
 
 ## Preview Images
 
-![Login Page]('./loginPage.png')
-![Voting Page]('./votePageLight.png')
-![Voting Page]('./votePageDark.png')
-![Statistics Page]('./statisticsPage.png')
+![Login Page]('./public/loginPage.png')
+![Voting Page]('./public/votePageLight.png')
+![Voting Page]('./public/votePageDark.png')
+![Statistics Page]('./public/statisticsPage.png')
