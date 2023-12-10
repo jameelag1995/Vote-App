@@ -1,6 +1,6 @@
 .AdminDashboard {
     justify-content: start;
-    padding-top: 30px;
+    padding: 10px 20px;
     min-height: calc(100vh - 100px);
     gap: 40px;
 }

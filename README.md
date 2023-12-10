@@ -1,5 +1,17 @@
 # Voting Web Application Documentation
 
+## -Link: https://magnificent-dasik-98afb1.netlify.app
+
+## Accounts to use:
+
+### Admin User
+### Email: test2@hotmail.com
+### Password: Qrxu9yA4VaZhkBI
+
+### Regular User
+### Email: test3@hotmail.com
+### Password: Qrxu9yA4VaZhkBI
+
 ## Introduction
 
 This React web application allows users to participate in a voting process. The application includes features such as a login page, a voting page with candidate selection, a statistics page for administrators, and support for dark and light modes.
