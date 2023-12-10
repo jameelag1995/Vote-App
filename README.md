@@ -55,15 +55,21 @@ This React web application allows users to participate in a voting process. The 
    ```bash
    git clone https://github.com/jameelag1995/Vote-App.git
 
-2. cd voting-app
+2. Move to project directory
+    ```bash
+    cd voting-app
 
-3. npm install
+3. install dependencies
+    ```bash
+    npm install
 
-4. npm run dev
+4. Run project 
+    ```bash
+    npm run dev
 
 ## Preview Images
 
-![Login Page]('./public/loginPage.png')
-![Voting Page]('./public/votePageLight.png')
-![Voting Page]('./public/votePageDark.png')
-![Statistics Page]('./public/statisticsPage.png')
+![Login Page](./public/loginPage.png)
+![Voting Page](./public/votePageLight.png)
+![Voting Page](./public/votePageDark.png)
+![Statistics Page](./public/statisticsPage.png)
